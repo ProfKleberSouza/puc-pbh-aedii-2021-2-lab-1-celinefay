@@ -1,3 +1,4 @@
+
 # Exercício - Função Recursiva - Tabela da Verdade
 
 Crie uma função recursiva que receba a quantidade de digitos e imprima a tabela da verdade.

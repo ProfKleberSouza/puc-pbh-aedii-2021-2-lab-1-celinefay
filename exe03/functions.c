@@ -1,7 +1,20 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+void menor_maior(int v[], int n, int *menor, int *maior){
 
-    return n1+n2;
+    int lowest = v[0];
+    int greatest = v[0];
+
+    for(int i =0; i<n; i++){
+
+        if(v[i] < lowest)
+            lowest = v[i];
+
+        if(v[i] > greatest)
+            greatest = v[i];
+    }
+
+    *menor = lowest;
+    *maior = greatest;
 }

@@ -1,7 +1,13 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+int menor(int v[], int n){
 
-    return n1+n2;
+    int m = v[0]; // m is representing menor while it is at the ind 0
+
+    for(int i = 0; i < n; i++){
+        if (v[i] < m)
+            m = v[i];
+    }
+    return m;
 }

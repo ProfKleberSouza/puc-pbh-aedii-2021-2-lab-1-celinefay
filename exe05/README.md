@@ -6,7 +6,7 @@ Crie uma função que receba uma string e inverta os catacteres da string.
 
 Sua função deve receber uma string como parâmetro, seguindo o protótipo:
 
-```c
+```
 void inverte(char texto[]);
 ```
 

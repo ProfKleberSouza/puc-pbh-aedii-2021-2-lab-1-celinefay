@@ -1,7 +1,6 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+void tabela_verdade(int d){
 
-    return n1+n2;
 }

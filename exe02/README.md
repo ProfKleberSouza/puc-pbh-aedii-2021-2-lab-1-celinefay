@@ -35,4 +35,5 @@ A saída padrão deve deve imprmir o menor valor presente no vetor.
 
 ```
 MENOR = 2
+
 ```

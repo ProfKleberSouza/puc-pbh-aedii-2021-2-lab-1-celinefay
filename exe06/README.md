@@ -6,13 +6,13 @@ Implemente uma função recursiva que, dados dois números inteiros $x$ e $n$, c
 
 Sua função deve receber dois números inteiros como parâmetro e retornar um número inteiro, seguindo o protótipo:
 
-```c
+```
 int potencia (int x, int n);
 ```
 
 As definições dos métodos devem ficar no arquivo `functions.h` e as implementações no arquivo `functions.c`.
 
-## Testes
+## Teste
 
 Os casos de testes devem seguir as definições para as estradas e saídas esperadas.
 

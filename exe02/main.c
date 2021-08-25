@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include "functions.h"
 
-int main() {
+int main(){
 
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
+        int n;
+        int vet[100]; // vet
+        int men;
 
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
+        scanf("%d", &n);
 
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
+         for(int i=0; i<n; i++){
+             scanf("%d", &vet[i]);
+         }
 
-  return(0);
+        men = menor(vet, n);
+
+         printf("MENOR = %d\n", men);
+        return 0;
 }

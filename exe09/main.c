@@ -1,18 +1,43 @@
 #include <stdio.h>
+#include <string.h>
 #include "functions.h"
 
+
 int main() {
+    int A, B;
 
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
+    scanf("%d %d", &A, &B);
+    placar_possiveis(A, B);
 
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
-
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
-
-  return(0);
+  return 0;
 }
+
+/*
+ * void placar_possiveis_rec(char placar[], int m, int n, int pos){
+
+    if(m == 0 && n == 0){
+        placar[pos] = '\0';
+        printf("%s\n", placar);
+    }else{
+
+        if(m > 0){
+            placar[pos] = 'A';
+            placar_possiveis_rec(placar, m-1, n, pos+1);
+        }
+
+        if(n > 0){
+            placar[pos] = 'B';
+            placar_possiveis_rec(placar, m, n-1, pos+1);
+        }
+    }
+}
+
+void placar_possiveis(int m, int n){
+    char placar[100];
+
+    placar_possiveis_rec(placar, m, n, 0);
+
+}
+
+ *
+ */

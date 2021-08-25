@@ -1,18 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "functions.h"
 
+#define MAX 100
 int main() {
 
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
 
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
+    char text[MAX];
+    fgets(text, MAX, stdin);
+    numero_vogais(text);
 
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
 
   return(0);
 }
